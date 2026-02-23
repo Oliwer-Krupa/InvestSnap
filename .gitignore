@@ -1,3 +1,7 @@
+# Security-critical local data (always ignored)
+dane/
+raporty/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

@@ -1,0 +1,10 @@
+.git
+__pycache__/
+.dockerignore
+
+dane/
+raporty/
+
+*.pyc
+*.pyo
+*.pyd

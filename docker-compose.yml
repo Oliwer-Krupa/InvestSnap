@@ -1,0 +1,9 @@
+services:
+  report-generator:
+    build: .
+    command: ["python", "-m", "src"]
+    env_file:
+      - .env
+    volumes:
+      - ./dane:/app/dane
+      - ./raporty:/app/raporty
